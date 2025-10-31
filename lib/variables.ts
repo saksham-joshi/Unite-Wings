@@ -36,7 +36,7 @@ export const VALUES = {
   APP_SHORT_NAME : 'Unite Wings',
   APP_SHORT_FORM : 'UW',
   APP_DESCRIPTION : 'Join Unite Wings, a non-profit transforming India\'s youth. Gain real-world experience with our hands-on leadership internships, skill bootcamps, and professional certifications. Explore our programs and launch your career with Youth Leadership.',
-  
+  CIN : "U85500UT2025NPL019683",
 
   URL : {
     WEB_URL : 'https://unitewings.com/',
@@ -46,7 +46,13 @@ export const VALUES = {
     X_URL : 'https://x.com/UniteWings',
     LINKEDIN_URL : 'https://www.linkedin.com/company/unite-wings/',
     GITHUB_URL: 'https://github.com/unitewings',
-    REDDIT_URL: ''
+    REDDIT_URL: '',
+  },
+
+  EMAIL : {
+    HELLO : 'hello@unitewings.com',
+    PARTNER : 'Partner@unitewings.com',
+    QUERY : 'HeyBuddy@unitewings.com'
   },
   
   /*
