@@ -31,9 +31,9 @@ const Footer = () => {
                     height={30}
                   />
                 </Link>
-                <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  A registered non-profit (Section 8 Company) dedicated to bridging the gap between education and
-                  employability for India's youth. We are building the next generation of leaders through practical skills, mentorship, and industry-aligned training.
+                <p className="mb-4 text-base leading-relaxed text-body-color dark:text-body-color-dark">CIN: U85500UT2025NPL019683</p>
+                <p className="mb-8 text-base leading-relaxed text-body-color dark:text-body-color-dark">
+                  A registered non-profit (Section 8 Company) dedicated to bridging the gap between education and employability for India's youth. We are building the next generation of leaders through practical skills, mentorship, and industry-aligned training.
                 </p>
                 <div className="flex items-center">
                   <a

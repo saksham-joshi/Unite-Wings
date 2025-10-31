@@ -114,10 +114,9 @@ const BlogSidebarPage = () => {
                 </div>
                 <div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat.
+                    Embrace the power of design and development with new techniques and trends. Dive into the world of creativity where your ideas can truly take shape and make an impact.
                   </p>
+
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                       <Image
@@ -128,57 +127,46 @@ const BlogSidebarPage = () => {
                       />
                     </div>
                   </div>
+
                   <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis enim lobortis scelerisque fermentum. Neque
-                    sodales ut etiam sit amet. Ligula ullamcorper
-                    <strong className="text-primary dark:text-white">
-                      {" "}
-                      malesuada{" "}
-                    </strong>
-                    proin libero nunc consequat interdum varius. Quam
-                    pellentesque nec nam aliquam sem et tortor consequat.
-                    Pellentesque adipiscing commodo elit at imperdiet.
+                    The world of design and development is ever-changing, but some principles remain constant. Effective collaboration, staying updated with trends, and pushing boundaries are key to creating lasting digital experiences. 
+                    <strong className="text-primary dark:text-white">Master these principles</strong> to become a leader in the digital space.
                   </p>
+
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Semper auctor neque vitae tempus quam pellentesque nec.
+                    Dive deeper into the essence of design with a mindset that values creativity and functionality. 
                     <span className="text-primary underline dark:text-white">
-                      {" "}
-                      Amet dictum sit amet justo{" "}
-                    </span>
-                    donec enim diam. Varius sit amet mattis vulputate enim nulla
-                    aliquet porttitor. Odio pellentesque diam volutpat commodo
-                    sed.
+                      Innovate and lead with your designs.
+                    </span> You can set trends, rather than follow them.
                   </p>
+
                   <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-                    Digital marketplace for Ui/Ux designers.
+                    A Digital Marketplace for UI/UX Designers.
                   </h3>
+
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    consectetur adipiscing elit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    mattis vulputate cupidatat.
+                    Explore a treasure trove of design resources tailored to your needs, ranging from UI kits to design systems. 
+                    <strong className="text-primary dark:text-white">Elevate your projects</strong> with tools that push boundaries.
                   </p>
+
                   <ul className="mb-10 list-inside list-disc text-body-color">
                     <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Consectetur adipiscing elit in voluptate velit.
+                      Access a vast library of UI/UX components.
                     </li>
                     <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Mattis vulputate cupidatat.
+                      Stay updated with the latest design trends.
                     </li>
                     <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Vulputate enim nulla aliquet porttitor odio pellentesque
+                      Collaborate with like-minded designers and developers.
                     </li>
                     <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Ligula ullamcorper malesuada proin
+                      Experiment with new design systems and frameworks.
                     </li>
                   </ul>
+
                   <div className="relative z-10 mb-10 overflow-hidden rounded-md bg-primary bg-opacity-10 p-8 md:p-9 lg:p-8 xl:p-9">
                     <p className="text-center text-base font-medium italic text-body-color">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod incididunt utionals labore et dolore magna
-                      aliqua. Quis lobortis scelerisque fermentum, The Neque ut
-                      etiam sit amet.
+                      "Design is not just about how things look, but how they work. Master both and create experiences that engage and inspire."
                     </p>
                     <span className="absolute left-0 top-0 z-[-1]">
                       <svg
@@ -321,11 +309,11 @@ const BlogSidebarPage = () => {
                       </svg>
                     </span>
                   </div>
+
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    consectetur adipiscing elit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    mattis vulputate cupidatat.
+                    Build the future of design, development, and innovation. Stay ahead of the curve and inspire others with your work.
                   </p>
+
                   <div className="items-center justify-between sm:flex">
                     <div className="mb-5">
                       <h4 className="mb-3 text-sm font-medium text-body-color">
@@ -334,7 +322,7 @@ const BlogSidebarPage = () => {
                       <div className="flex items-center">
                         <TagButton text="Design" />
                         <TagButton text="Development" />
-                        <TagButton text="Info" />
+                        <TagButton text="Innovation" />
                       </div>
                     </div>
                     <div className="mb-5">
@@ -347,6 +335,7 @@ const BlogSidebarPage = () => {
                     </div>
                   </div>
                 </div>
+
               </div>
             </div>
             <div className="w-full px-4 lg:w-4/12">
