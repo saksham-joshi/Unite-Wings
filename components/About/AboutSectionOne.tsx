@@ -2,6 +2,7 @@ import { getImagePath } from "@/lib/utils";
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
 import { VALUES } from "@/lib/variables";
+import SectionPara from "../Common/SectionPara";
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -37,20 +38,32 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="Mission-Driven Excellence" />
+                    <List text="Inclusive Innovation" />
+                    <List text="Collaborative Growth" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Sustainable Impact" />
+                    <List text="Futuristic Vision" />
+                    <List text="Great Mission" />
                   </div>
                 </div>
               </div>
-            </div>
 
+              <SectionPara
+                paragraph={`<br/>
+                Our story doesn't begin with a person, but with a question. A question that echoes in university halls, corporate boardrooms, and family homes across the nation: Why, with millions of talented and ambitious graduates each year, is there still a profound disconnect between the skills they have and the skills the modern world demands?
+                <br/> <br/>
+                This is the employability paradox. Our youth are educated, driven, and full of potential. Yet, they often find themselves at the starting line of their careers without the practical tools needed to run the race: the confidence to lead a team, the eloquence to present a big idea, the resilience to navigate a complex project, or the innovative mindset to solve a problem no textbook ever covered.
+                <br/> <br/>
+                Traditional education provides the 'what'. We were founded to provide the 'how'.
+                <br/> <br/>
+                Unite Wings was conceived not as a business, but as an answer. It was designed from the ground up to be a dynamic, non-profit bridge over this gap. We are a response to the visionary goals of the National Education Policy (NEP) 2020 and a dedicated ally to the mission of Skill India. We are not here to replace traditional education, but to be its most powerful and essential partner. Our purpose is to ensure that the spark of academic knowledge is fanned into the flame of real-world competence.
+                `}
+              />
+            </div>
+            
             <div className="w-full px-4 lg:w-1/2">
               <div
                 className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"

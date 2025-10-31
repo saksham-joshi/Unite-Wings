@@ -1,4 +1,5 @@
 import { getImagePath } from "@/lib/utils";
+import { VALUES } from "@/lib/variables";
 import Image from "next/image";
 
 const AboutSectionTwo = () => {
@@ -29,26 +30,26 @@ const AboutSectionTwo = () => {
             <div className="wow fadeInUp max-w-[470px]" data-wow-delay=".2s">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug-Free Code
+                  Section-8
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  We prioritize delivering clean, bug-free code to ensure smooth performance and reliability. Our team follows best practices and rigorous testing to catch potential issues early and provide a seamless experience.
+                  Our legal structure is a direct reflection of our values. Unite Wings is incorporated as a Section 8 Company under the Companies Act, 2013. CIN: {VALUES.CIN}.
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier Support
+                  Non-Profit Organization
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  We offer top-tier, round-the-clock support to ensure you get the assistance you need, whenever you need it. Our dedicated team is ready to address your concerns and resolve issues quickly.
+                  Being a Section 8 company means we are a registered non-profit organization with a social mission at our core. It legally mandates that any and all surplus income and profits are reinvested directly back into our work. We have no shareholders seeking dividends. Our only stakeholder is the youth of India.
                 </p>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Next.js
+                  Educational Vision
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Next.js is a powerful React framework that enables fast, scalable, and optimized web applications. It offers built-in features like server-side rendering, static site generation, and routing to enhance performance and SEO.
+                  This structure ensures that our focus remains pure: delivering the highest quality educational programs to the widest possible audience.
                 </p>
               </div>
             </div>
