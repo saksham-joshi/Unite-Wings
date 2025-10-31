@@ -13,7 +13,7 @@ const Pricing = () => {
       <div className="container">
         <SectionTitle
           title="Simple and Affordable Pricing"
-          paragraph="TWe offer clear, straightforward pricing with no hidden fees. Our plans are designed to be budget-friendly while providing excellent value, so you can focus on what matters most without worrying about your budget."
+          paragraph="We offer clear, straightforward pricing with no hidden fees. Our plans are designed to be budget-friendly while providing excellent value, so you can focus on what matters most without worrying about your budget."
           center
           width="665px"
         />
