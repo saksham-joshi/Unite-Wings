@@ -1,8 +1,9 @@
-import NewsLatterBox from "./NewsLatterBox";
+import Link from "next/link";
+import {VALUES} from "@/lib/variables";
 
 const Contact = () => {
   return (
-    <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
+    <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28 center">
       <div className="container">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 lg:w-7/12 xl:w-8/12">
@@ -12,12 +13,36 @@ const Contact = () => {
               "
             >
               <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
-                Need Help? Open a Ticket
+                Need Help?  Email us
               </h2>
+
               <p className="mb-12 text-base font-medium text-body-color">
                 Our support team will get back to you ASAP via email.
               </p>
-              <form>
+
+              <p className="mb-12 text-base font-medium text-body-color">
+                <strong> General Queries: </strong>
+                <Link href={"mailto:"+VALUES.EMAIL.HELLO} className="text-primary hover:underline">
+                      {VALUES.EMAIL.HELLO}
+                </Link>
+              </p>
+
+              <p className="mb-12 text-base font-medium text-body-color">
+                <strong> Academic/Corporate Queries: </strong>
+                <Link href={"mailto:"+VALUES.EMAIL.PARTNER} className="text-primary hover:underline">
+                      {VALUES.EMAIL.PARTNER}
+                </Link>
+              </p>
+
+              <p className="mb-12 text-base font-medium text-body-color">
+                <strong>Student Queries: </strong>
+                <Link href={"mailto:"+VALUES.EMAIL.QUERY} className="text-primary hover:underline">
+                      {VALUES.EMAIL.QUERY}
+                </Link>
+              </p>
+
+
+              {/* <form>
                 <div className="-mx-4 flex flex-wrap">
                   <div className="w-full px-4 md:w-1/2">
                     <div className="mb-8">
@@ -71,12 +96,12 @@ const Contact = () => {
                     </button>
                   </div>
                 </div>
-              </form>
+              </form> */}
             </div>
           </div>
-          <div className="w-full px-4 lg:w-5/12 xl:w-4/12">
+          {/* <div className="w-full px-4 lg:w-5/12 xl:w-4/12">
             <NewsLatterBox />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
