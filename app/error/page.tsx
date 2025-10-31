@@ -5,7 +5,7 @@ import { COLORS, VALUES } from "@/lib/variables";
 
 export const metadata: Metadata = {
   title: `Error Page | ${VALUES.APP_SHORT_NAME}`,
-  description: `This is Error Page of ${VALUES.APP_FULL_NAME}`,
+  description: `This is Error 404 Page of ${VALUES.APP_FULL_NAME}`,
   authors: VALUES.DEV_SAKSHAM_JOSHI,
   publisher: VALUES.APP_FULL_NAME,
   robots: VALUES.SEO.robots,
