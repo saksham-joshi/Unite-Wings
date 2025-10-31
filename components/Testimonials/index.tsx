@@ -40,7 +40,7 @@ const Testimonials = () => {
       <div className="container">
         <SectionTitle
           title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="Our users love the experience! Here’s what they have to say about how our platform has helped them achieve their goals and improve their workflow."
           center
         />
 

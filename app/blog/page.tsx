@@ -22,7 +22,7 @@ const Blog = () => {
     <>
       <Breadcrumb
         pageName="Blog Grid"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description="Explore a wide range of articles, tips, and insights on design, development, and more. Stay informed and inspired with our latest blog posts."
       />
 
       <section className="pb-[120px] pt-[120px]">
