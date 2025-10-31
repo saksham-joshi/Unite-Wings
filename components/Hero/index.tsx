@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { COLORS } from "@/lib/variables";
+import { COLORS, VALUES } from "@/lib/variables";
 
 const Hero = () => {
   return (
@@ -26,10 +26,10 @@ const Hero = () => {
                   <Link
                     style={{backgroundColor: COLORS.PRIMARY}}
                     target="_blank"
-                    href="https://www.linkedin.com/company/unite-wings/"
+                    href={VALUES.URL.YOUTUBE_URL}
                     className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
                   >
-                    Follow on LinkedIn
+                    Subscribe on YouTube
                   </Link>
                 </div>
               </div>
