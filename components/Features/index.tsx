@@ -8,8 +8,8 @@ const Features = () => {
       <section id="features" className="py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="Main Features"
-            paragraph="Our platform offers key features like easy integration, customization, and top-notch performance, all designed to boost productivity and streamline your workflow."
+            title="Why Unite Wings?"
+            paragraph="We are a new organization with a bold, meticulously planned vision. Our impact isn't measured in yesterday's statistics, but in the strength of the foundation we have built to create tomorrow's success stories."
             center
           />
 
