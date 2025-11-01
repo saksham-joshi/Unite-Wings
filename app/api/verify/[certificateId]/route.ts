@@ -1,10 +1,12 @@
+// app/api/verify/[certificateId]/route.ts
 import { NextResponse } from 'next/server';
 
 export async function GET(
     request: Request,
-    { params }: { params: { certificateId: string } }
+    { params }: { params: Promise<{ certificateId: string }> }
 ) {
-    const certificateId = await  params.certificateId;
+    // Await the params
+    const { certificateId } = await params;
 
     try {
         const response = await fetch(
