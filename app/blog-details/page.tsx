@@ -112,7 +112,7 @@ const BlogDetailsPage = () => {
                 </div>
                 <div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    In the ever-evolving world of design and development, it's essential to stay ahead of the curve. Learn the latest trends, tips, and strategies to sharpen your skills and deliver stunning results.
+                    {`In the ever-evolving world of design and development, it's essential to stay ahead of the curve. Learn the latest trends, tips, and strategies to sharpen your skills and deliver stunning results.`}
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
@@ -125,7 +125,7 @@ const BlogDetailsPage = () => {
                     </div>
                   </div>
                   <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Unlock your full creative potential by embracing new methodologies and approaches. Whether you're designing for the web or building interactive applications, mastering the right tools can propel your career forward. 
+                    {`Unlock your full creative potential by embracing new methodologies and approaches. Whether you're designing for the web or building interactive applications, mastering the right tools can propel your career forward.`}
                     <strong className="text-primary dark:text-white">
                       Stay ahead of the game
                     </strong> by continuously learning and experimenting.
@@ -157,7 +157,7 @@ const BlogDetailsPage = () => {
                   </ul>
                   <div className="relative z-10 mb-10 overflow-hidden rounded-md bg-primary bg-opacity-10 p-8 md:p-9 lg:p-8 xl:p-9">
                     <p className="text-center text-base font-medium italic text-body-color">
-                      Design is not just about making things look pretty; it's about solving problems and creating meaningful experiences. Start exploring the art of design today and make your mark.
+                      {`Design is not just about making things look pretty; it's about solving problems and creating meaningful experiences. Start exploring the art of design today and make your mark.`}
                     </p>
                     <span className="absolute left-0 top-0 z-[-1]">
                       <svg
