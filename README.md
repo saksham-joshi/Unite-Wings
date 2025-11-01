@@ -1,7 +1,3 @@
-> [!WARNING]\
-> THIS PROJECT IS UNDER DEVELOPMENT.
-
----
 # Unite Wings Educational Confederation 
 > Empowering students, volunteers & trainers to lead, influence, and grow. We show you how much potential you actually have within yourself.
 
