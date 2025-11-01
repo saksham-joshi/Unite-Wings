@@ -3,7 +3,7 @@ const nextConfig = {
   // output: 'export',
   trailingSlash: true,
   skipTrailingSlashRedirect: true,
-  distDir: 'dist',
+  // distDir: 'dist',
   basePath: process.env.NEXT_PUBLIC_BASE_PATH || '',
   assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/` : '',
   images: {
@@ -17,6 +17,7 @@ const nextConfig = {
       },
     ],
   },
+  allowedDevOrigins: ['local-origin.dev', '*.local-origin.dev'],
 };
 
 module.exports = nextConfig;
